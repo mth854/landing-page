@@ -1,7 +1,8 @@
 .text-custom {
     color: red;
 }
-.smallerimg{
+#smallerimg{
     width: 500px;
     height: auto;
+    display: none;
 }
