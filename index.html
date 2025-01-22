@@ -8,7 +8,11 @@
 </head>
 <body>
     <button id = "show" > click me!</button>
-    <script scr ="./test.js"/>
     <img id="smallerimg" src="https://static.vecteezy.com/system/resources/previews/009/780/776/original/cute-little-monkey-cartoon-on-tree-branch-free-vector.jpg" alt="img" />
+    <script>const bnd = document.getElementById("show")
+        const imgt = document.getElementById("smallerimg")
+        bnd.addEventListener("click", ()=>{
+            imgt.style.display = "flex"
+        })</script>
     </body>
 </html>
