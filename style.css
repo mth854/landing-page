@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+  }
+
+  .lovely-button {
+    background: linear-gradient(45deg, #ff7eb9, #ff65a3);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .lovely-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .lovely-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  }

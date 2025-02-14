@@ -2,7 +2,9 @@ import React from 'react'
 import './style.css'
 function test() {
   return (
-    <div>test</div>
+    <body>
+        <button>NO</button><button>YES</button>
+    </body>
   )
 }
 
